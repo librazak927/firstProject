@@ -1,0 +1,146 @@
+@import url(reset.css);
+body{
+    background-color: #999;
+    font-family:微軟正黑體 ,Arial, Helvetica, sans-serif;
+}
+#WRAPPER{
+    width: 960px;
+    margin: 0 auto;
+    box-shadow: 1px 5px 20px #222;
+    background-color: #fff;
+}
+/* ===頁首區=== */
+#HEADER{
+    background-color: #420622;
+}
+#HEADER h1{
+    display: block;
+    width: 960px;
+    height: 300px;
+    margin: 0 auto;
+    text-indent: -9999px;
+}
+/* ===主選單區=== */
+#NAV{
+    background-color: #000;
+    overflow: hidden;
+    
+
+}
+#NAV ul{
+    display: block;
+    width: 960px;
+    margin: 0 auto;
+
+
+
+}
+#NAV li{
+    float: left;
+
+}
+#NAV li a{
+    display: block;
+    width: 120px;
+    height: 50px;
+    line-height: 50px;
+    background-color: #000;
+    font-size: 15px;
+    color: #fff;
+    letter-spacing: 2px;
+    text-align: center;
+    text-decoration: none;
+    border-top:5px solid #333; 
+}
+#NAV li a:hover{
+    background-color: #555;
+    border-top: 5px solid #ddd;
+}
+/* ===輪圖播放=== */
+#SECTION img {
+
+    display: block;
+    margin: 0 auto;
+}
+#SECTION h2{
+    font-size:30px;
+    text-align: center;
+    margin: 10px; 
+}
+/* ===側邊區=== */
+#ASIDE{
+    clear: both;
+    width: 200px;
+    float: left;;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+#ASIDE h2{
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+#ASIDE p{
+    font-size: 10px;
+    line-height: 1.7;
+    text-align: left;
+}
+#ASIDE ol{
+    padding-left:5px; 
+    display: block;
+    margin: 0 auto;
+    overflow: hidden;
+} 
+#ASIDE .box{
+    margin-top: 30px;
+    line-height: 20px;
+    text-align: justify;
+}
+#box{
+    clear: both;
+    position: absolute;
+    display: block;
+    top: 750px;
+    left:470px;
+
+}
+
+
+
+
+/* ===內容區=== */
+#ARTICLE{
+    margin-left: 200px;
+    background-color: #FFF;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+#ARTICLE p{
+    font-size: 15px;
+    line-height: 1.7;
+    padding: 0px 30px;
+    padding-bottom: 15px;
+}
+#ARTICLE div{
+    padding-bottom: 3px;
+}
+#ARTICLE button{
+    float: right;
+    margin-right:8px;
+    
+}
+
+
+/* ===頁尾區=== */
+#FOOTER{
+    display: block;
+    clear: both;
+    background-color: #000;
+    border-top: 5px solid #444;
+}
+#FOOTER p{
+    font-size: 15px;
+    text-align: left;
+    line-height: 30px;
+    color: #FFF;
+    padding-left: 20px;
+}
